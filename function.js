@@ -32,7 +32,7 @@ const checkEven = (num) => {
 const isEven = checkEven(45);
 console.log(isEven);
 
-//
+
 
 
 
