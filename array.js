@@ -80,7 +80,46 @@ nums.forEach((n, i) => {
     console.log(i, n * 3);
 })
 
+//map function is used to create a new array by calling a provided function on every element in the calling array
 
+const newArr = nums.map((n) => {
+    return n*3;
+});
+console.log(newArr);
+
+const num2 = [1,2,3,4,5,6,7,8,9,10];
+
+const squared = num2.map((n) => {
+        return n ** 2;
+});
+console.log(squared);
+
+// filter function is used to create a new array with all elements that pass the test implemnted by the provided function
+
+const evenNumbers = num2.filter((n) => {
+    return n % 2 === 0;
+});
+console.log(evenNumbers);
+
+const oddNumbers = num2.filter((n) => {
+    return n % 2 !== 0;
+});
+console.log(oddNumbers);
+
+const prices = [345.95 , 34.32 , 874.5 , 23.45, 56.78];
+const newPrices = prices.map((p) => {
+    return p + p * 0.18;
+})
+console.log(newPrices);
+
+// filter all prices between 40 and 800
+
+const Budget = prices.filter((p) => {
+    return p >= 40 && p<= 800;
+})
+console.log(Budget);
+
+// reduce function is used to execute a reducer function an each element of the array resulting in a single output value
 
 
 

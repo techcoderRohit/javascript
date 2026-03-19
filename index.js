@@ -13,6 +13,20 @@ console.log(isHungry);
 kuchnhi = null;
 console.log(kuchnhi);
 
+console.log(typeof null);
+console.log(typeof NaN);
+
+console.log(1 == '1');
+console.log(1 === '1');
+console.log(1 === 1);
+
+console.log(1 +'1');
+console.log(1 + '1'+ 1);
+console.log(1 + 1 +'1');
+console.log(1 +1+'abc');
+
+
+
 
 
 
