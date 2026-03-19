@@ -119,8 +119,6 @@ const Budget = prices.filter((p) => {
 })
 console.log(Budget);
 
-// reduce function is used to execute a reducer function an each element of the array resulting in a single output value
-
 
 
 
